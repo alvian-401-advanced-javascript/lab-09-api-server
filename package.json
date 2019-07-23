@@ -1,0 +1,44 @@
+{
+  "name": "lab-08-express-routing",
+  "version": "1.0.0",
+  "description": "* [submission PR]()\r * [![Build Status]()",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest --verbose",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvian-401-advanced-javascript/lab-08-express-routing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvian-401-advanced-javascript/lab-08-express-routing/issues"
+  },
+  "homepage": "https://github.com/alvian-401-advanced-javascript/lab-08-express-routing#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "express-swagger-generator": "^1.1.15",
+    "jest": "^24.8.0",
+    "mongodb-memory-server": "^5.1.5",
+    "supertest": "^4.0.2",
+    "uuid": "^3.3.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cwd": "^0.10.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsdoc": "^3.6.3",
+    "mongoose": "^5.6.6",
+    "mongoose-schema-jsonschema": "^1.2.1",
+    "morgan": "^1.9.1",
+    "util": "^0.12.1"
+  }
+}
