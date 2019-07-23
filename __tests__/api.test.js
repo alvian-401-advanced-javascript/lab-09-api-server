@@ -88,12 +88,4 @@ describe('All APIs', () => {
       });
   });
 
-  it('throws 404 error on invalid path', () => {
-    let error = { error: 'Resource Not Found' };
-    return mockRequest.get(`/api/v1/notapath`)
-      .then(data => {
-        expect(data.body).toEqual(error);
-      });
-  });
-
 });

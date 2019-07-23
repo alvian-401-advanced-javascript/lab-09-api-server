@@ -23,7 +23,7 @@ app.use(express.static('./public'));
 app.use(apiRouter);
 
 //error handlers
-app.use('*', notFoundHandler);
+app.use(notFoundHandler);
 app.use(errorHandler);
 
 
