@@ -31,6 +31,13 @@
 * PUT
 * Delete
 
+#### UML
+![PUT](https://github.com/alvian-401-advanced-javascript/lab-09-api-server/blob/master/assets/put_UML.png)
+![delete](https://github.com/alvian-401-advanced-javascript/lab-09-api-server/blob/master/assets/delete_UML.png)
+![GET](https://github.com/alvian-401-advanced-javascript/lab-09-api-server/blob/master/assets/getUML.png)
+![GETone](https://github.com/alvian-401-advanced-javascript/lab-09-api-server/blob/master/assets/get_id_UML.png)
+![POST]https://github.com/alvian-401-advanced-javascript/lab-09-api-server/blob/master/assets/post_UML.png)
+
 
 ### Documentation
 * n/a
