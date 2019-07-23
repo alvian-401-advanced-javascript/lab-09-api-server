@@ -5,7 +5,7 @@
 ### Author: Alvian Joseph
 
 ### Links and Resources
-* [submission PR](https://github.com/alvian-401-advanced-javascript/lab-09-api-server)
+* [submission PR](https://github.com/alvian-401-advanced-javascript/lab-09-api-server)  
 [![Build Status](https://www.travis-ci.com/alvian-401-advanced-javascript/lab-09-api-server.svg?branch=master)](https://www.travis-ci.com/alvian-401-advanced-javascript/lab-09-api-server)
 ### Command to add data to server  
 ```echo '{"name": "AJ", "description":"software dev"}' | http post :3000/api/v1/categories```
