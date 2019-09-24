@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "jest --verbose",
-    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
