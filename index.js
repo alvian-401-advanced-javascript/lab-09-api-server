@@ -9,6 +9,6 @@ const mongooseOptions = {
   useCreateIndex: true,
   useFindAndModify: false,
 };
-mongoose.connect('mongodb://localhost:27017/lab08', mongooseOptions);
+mongoose.connect(process.env.MONGODB_URI, mongooseOptions);
 
 require('./src/server.js').start(process.env.PORT || 3000);
