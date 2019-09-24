@@ -10,6 +10,7 @@ const notFoundHandler = require('./middleware/404.js');
 
 // Custom Routes
 const apiRouter = require('./routes/v1.js');
+const todoRouter = require('./routes/todo.routes.js');
 
 const app = express();
 
