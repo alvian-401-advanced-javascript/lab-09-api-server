@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest --verbose",
     "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
